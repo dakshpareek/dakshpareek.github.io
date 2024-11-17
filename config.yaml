@@ -1,10 +1,15 @@
-baseurl: /
+baseURL: "https://dakshpareek.github.io/portfolio/"
+relativeURLs: true
+canonifyURLs: true
 languageCode: en-us
 title: "Daksh Pareek"
 theme: hugo-ivy
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 preserveTaxonomyNames: true
+publishDir: "docs"
 footnotereturnlinkcontents: ↩
+
+
 
 permalinks:
   note: /note/:year/:month/:day/:slug/
