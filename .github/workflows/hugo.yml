@@ -4,7 +4,7 @@ on:
   # Triggers the workflow on push to the default repository branch or a pull request event
   push:
     branches:
-      - main  # Change this to your default branch name if it's different
+      - staging  # Change this to your default branch name if it's different
 
 jobs:
   build:
