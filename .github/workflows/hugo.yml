@@ -1,0 +1,31 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  # Triggers the workflow on push to the default repository branch or a pull request event
+  push:
+    branches:
+      - main  # Change this to your default branch name if it's different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # Ensure submodules are updated in case your theme is a submodule
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.83.1'  # Specify the version; you can also use 'latest'
+
+      - name: Build site
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
