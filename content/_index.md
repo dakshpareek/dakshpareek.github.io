@@ -4,7 +4,7 @@ title: Home
 
 # Hello!
 
-I'm **Daksh Pareek**, a software engineer specializing in backend development and DevOps.
+I'm **Daksh Pareek**, a senior software engineer specializing in backend development.
 
 Welcome to my personal space on the web. Glad you're here.
 
