@@ -20,21 +20,10 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
-    - name: "About"
-      url: "/about/"
-      weight: 2
-    - name: "Categories"
-      url: "/categories/"
-      weight: 3
-    - name: "Tags"
-      url: "/tags/"
-      weight: 4
-    - name: "Subscribe"
-      url: "/index.xml"
 
 params:
   description: "Welcome to my personal portfolio website, showcasing my projects and blogs."
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017-{Year} | [Github](https://github.com/yihui)"
+  footer: "&copy; [Daksh Pareek](https://daksh.be) 2018-{Year} | [Github](https://github.com/dakshpareek)"
   highlightjsLang: ["latex"]
   highlightjsTheme: "github"
   highlightjsVersion: "11.7.0"

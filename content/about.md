@@ -1,5 +1,5 @@
 ---
-title: About Hugo Ivy
+title: Daksh Pareek
 author: Yihui Xie
 date: '2017-08-06'
 ---
