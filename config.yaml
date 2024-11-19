@@ -12,6 +12,7 @@ footnotereturnlinkcontents: ↩
 
 
 permalinks:
+  blog: /blog/:year/:month/:day/:slug/
   note: /note/:year/:month/:day/:slug/
   post: /post/:year/:month/:day/:slug/
 
@@ -20,6 +21,9 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
+    - name: "Blog"
+      url: "/blog/"
+      weight: 2
 
 params:
   description: "Welcome to my personal portfolio website, showcasing my projects and blogs."
