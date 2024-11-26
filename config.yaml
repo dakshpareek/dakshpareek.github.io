@@ -15,15 +15,19 @@ permalinks:
   blog: /blog/:year/:month/:day/:slug/
   note: /note/:year/:month/:day/:slug/
   post: /post/:year/:month/:day/:slug/
+  projects: /projects/:slug/
 
 menu:
   main:
     - name: "Home"
       url: "/"
       weight: 1
+    - name: "Projects"
+      url: "/projects/"
+      weight: 2
     - name: "Blog"
       url: "/blog/"
-      weight: 2
+      weight: 3
 
 params:
   description: "Welcome to my personal portfolio website, showcasing my projects and blogs."
