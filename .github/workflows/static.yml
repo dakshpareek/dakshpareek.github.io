@@ -30,7 +30,7 @@ jobs:
           submodules: true
 
       - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'  # Or specify a version
 
