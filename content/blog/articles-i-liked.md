@@ -16,7 +16,7 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 ### Articles
 
 - **[The Antidote to "I am feeling stuck in my career"](https://com.queries.fun/p/the-antidote-to-i-am-feeling-stuck)**
-  *At any stage of career we can come to this as unblock ourself.*
+  *At any stage of career we can come to this to unblock ourself.*
 
 ### Videos
 
