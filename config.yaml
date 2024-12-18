@@ -28,6 +28,9 @@ menu:
     - name: "Blog"
       url: "/blog/"
       weight: 3
+    - name: "Recommendations"
+      url: "/blog/2024/12/18/articles-i-liked/"
+      weight: 4
 
 params:
   description: "Welcome to my personal portfolio website, showcasing my projects and blogs."
