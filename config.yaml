@@ -9,7 +9,7 @@ preserveTaxonomyNames: true
 publishDir: "docs"
 footnotereturnlinkcontents: ↩
 
-
+googleAnalytics: "G-LJV7YZGBBB"
 
 permalinks:
   blog: /blog/:year/:month/:day/:slug/
