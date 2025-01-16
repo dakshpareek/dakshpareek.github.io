@@ -11,6 +11,16 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## January 2025
+
+### Articles
+
+- **[Handling 1 Million Requests per Minute with Go](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)**
+
+  *An insightful exploration of how Malwarebytes engineered a system using Go to handle massive traffic efficiently. This article delves into effective concurrency patterns, such as implementing a worker pool with a dispatcher, and demonstrates the power of Go's concurrency features in real-world applications.*
+
+---
+
 ## December 2024
 
 ### Articles
