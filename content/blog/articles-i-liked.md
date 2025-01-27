@@ -19,6 +19,9 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
   *An insightful exploration of how Malwarebytes engineered a system using Go to handle massive traffic efficiently. This article delves into effective concurrency patterns, such as implementing a worker pool with a dispatcher, and demonstrates the power of Go's concurrency features in real-world applications.*
 
+- **[12 Factor App Methodology](https://12factor.net/)**
+
+  *A methodology for building software-as-a-service applications that emphasizes simplicity, modularity, and security.*
 ---
 
 ## December 2024
