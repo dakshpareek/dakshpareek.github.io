@@ -22,6 +22,11 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 - **[12 Factor App Methodology](https://12factor.net/)**
 
   *A methodology for building software-as-a-service applications that emphasizes simplicity, modularity, and security.*
+
+- **[Semantic Versioning](https://semver.org/)**
+
+  *A standard for versioning software that helps communicate intentions to consumers and provides predictability for both developers and users.*
+
 ---
 
 ## December 2024
