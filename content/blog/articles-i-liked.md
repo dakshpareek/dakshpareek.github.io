@@ -27,7 +27,7 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
   *A standard for versioning software that helps communicate intentions to consumers and provides predictability for both developers and users.*
 
-- **[The technology behind preview photos on Facebook](https://engineering.fb.com/2015/08/06/android/the-technology-behind-preview-photos/)
+- **[The technology behind preview photos on Facebook](https://engineering.fb.com/2015/08/06/android/the-technology-behind-preview-photos/)**
 
   *How Facebook engineers created that blurry effect on photos*
 
