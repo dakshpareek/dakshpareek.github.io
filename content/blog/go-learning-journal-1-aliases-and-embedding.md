@@ -1,5 +1,5 @@
 ---
-title: "Go Learning Journal #1: Aliases and Embedding"
+title: "Go Learning Journal 1: Aliases and Embedding"
 date: 2025-02-04
 tags: ["Go", "Notes"]
 draft: false

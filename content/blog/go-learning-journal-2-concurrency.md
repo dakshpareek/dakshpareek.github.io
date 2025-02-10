@@ -1,5 +1,5 @@
 ---
-title: "Go Learning Journal #2: Concurrency"
+title: "Go Learning Journal 2: Concurrency"
 date: 2025-02-05
 tags: ["Go", "Notes", "Concurrency"]
 draft: false
