@@ -11,6 +11,15 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## February 2025
+
+### Articles
+
+- **[What color is your function?](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)**
+
+  *This article essentially criticizes how many modern languages handle asynchronous programming, showing why Go's approach (using goroutines and channels) is more elegant and avoids the "two worlds" problem of async/sync code.*
+
+
 ## January 2025
 
 ### Articles
