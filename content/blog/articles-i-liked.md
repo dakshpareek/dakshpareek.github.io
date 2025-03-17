@@ -11,6 +11,16 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## March 2025
+
+### Videos
+
+- **[Product Thinking Workshop](https://www.youtube.com/watch?v=f6kdp27TYZs)**
+
+  *A workshop by Shreyas on Product Thinking vs Project Thinking.*
+
+---
+
 ## February 2025
 
 ### Articles
