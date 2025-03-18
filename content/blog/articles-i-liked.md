@@ -15,6 +15,8 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ### Videos
 
+- **[How the Economic machine works](https://www.youtube.com/watch?v=PHe0bXAIuk0)**
+
 - **[Product Thinking Workshop](https://www.youtube.com/watch?v=f6kdp27TYZs)**
 
   *A workshop by Shreyas on Product Thinking vs Project Thinking.*
