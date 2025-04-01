@@ -13,6 +13,12 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ## March 2025
 
+### Articles
+
+- **[How to (and how not to) design REST APIs](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)**
+
+  *This article provides a comprehensive guide on designing REST APIs, covering topics such as resource naming, versioning, error handling, and more. It also discusses common pitfalls and anti-patterns to avoid when designing RESTful APIs.*
+
 ### Videos
 
 - **[How the Economic machine works](https://www.youtube.com/watch?v=PHe0bXAIuk0)**
