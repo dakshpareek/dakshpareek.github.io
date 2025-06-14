@@ -19,6 +19,12 @@ I am starting to write here because of the reasons below. This list of reasons a
 
 - People say writing improves one's critical thinking and communication skills when they write. Hence I am starting this. I am thinking of first writing my draft without any LLM help to get the theme and writing style correct. At the end, I will be checking it through an LLM for improvement and also listing down in my blog so next time I avoid those pitfalls. I'll see if I can find more methods to improve my writing.
 
+- Writing about what inspired me to start, the roadblocks I hit, and that time I nearly gave up (or a small win that kept me going) helps me see my own arc. It’s raw, real, and keeps me grounded.
+
+- I will going to share what I have learned in my journey.
+
+- I will try to zoom out and share bigger picture for the things I am writing about.
+
 That's it for now.
 
 ---

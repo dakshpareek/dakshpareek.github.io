@@ -11,6 +11,17 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## June 2025
+
+### Articles
+- **[Netflix Cultural Deck](https://drive.google.com/file/d/113qRKkqCLLSr7mh2L-TJEBKAuWhzxB1Q/view)**
+
+  *Netflix provided what they values in their organization.*
+
+- **[Revenge of the junior developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer)**
+
+  *A thought-provoking piece that discusses how development is going to change when AI agent will arrive in the scene.*
+
 ## March 2025
 
 ### Articles
