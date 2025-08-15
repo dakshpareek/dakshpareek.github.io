@@ -11,6 +11,22 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+
+## August 2025
+
+### Articles
+- **[People > Principles > Process > Product](https://mikefisher.substack.com/p/people-principles-process-product)**
+
+  *Mike provides a different way to approach product development than how we traditionally think to solve them.*
+
+## July 2025
+
+### Articles
+- **[Always Do Extra](https://www.bennorthrop.com/Essays/2021/always-do-extra.php)**
+
+  *Ben provides a key differentiation between doing More and Extra*
+
+
 ## June 2025
 
 ### Articles
