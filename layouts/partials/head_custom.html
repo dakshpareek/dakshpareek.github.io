@@ -1,1 +1,46 @@
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{ $description := .Site.Params.description }}
+{{ with .Params.description }}{{ $description = . }}{{ end }}
+<meta name="description" content="{{ $description }}">
+
+{{ $image := "" }}
+{{ $matches := findRE "<img src=\"https?://[^\"]+" .Content 1 }}
+{{ if gt (len $matches) 0 }}
+  {{ $image = (replaceRE "<img src=\"" "" (index $matches 0) | htmlUnescape) }}
+{{ else }}
+  {{ with .Site.Params.twitterImage }}{{ $image = (absURL .) }}{{ end }}
+{{ end }}
+
+<!-- JSON-LD -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daksh Pareek",
+  "url": "https://daksh.be",
+  "sameAs": [
+    "https://github.com/dakshpareek",
+    "https://www.linkedin.com/in/daksh-pareek"
+  ]
+}
+</script>
+{{ end }}
+
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ printf "%q" .Title }},
+  "description": {{ printf "%q" $description }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": { "@type": "Person", "name": "Daksh Pareek" },
+  "mainEntityOfPage": {{ printf "%q" .Permalink }}{{ with $image }},
+  "image": {{ printf "%q" . }}{{ end }}
+}
+</script>
+{{ end }}
+
 <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" />
