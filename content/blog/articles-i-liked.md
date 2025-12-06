@@ -11,6 +11,11 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## December 2025
+
+### Articles
+- **[Inverse Triangle Inequality](https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html)**
+  *Matklad gave practical advice on structuring code changes: break big PRs into reviewable chunks, separate mechanical refactors from logic changes, and know when to invest extra time to fully solve problems instead of applying quick fixes.*
 
 ## August 2025
 
