@@ -1,6 +1,6 @@
 ---
 title: "DelugeLink"
-date: 2025-12-4
+date: 2025-12-04
 description: "A lightweight Chrome extension to add magnet links and .torrent files directly to a Deluge BitTorrent client."
 tags: ["chrome extension", "typescript", "react", "side project"]
 draft: false
