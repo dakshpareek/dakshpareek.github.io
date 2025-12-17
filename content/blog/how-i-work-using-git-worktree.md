@@ -1,8 +1,14 @@
 ---
 title: "How I Work Using Git Worktree?"
 date: 2025-08-15
+lastmod: 2025-12-17
 tags: ["git", "worktree", "productivity", "development", "workflow"]
 draft: false
+---
+
+
+> **Update 2025:** I've refined this workflow significantly since writing this! While the method below works for creating isolated environments, I found a more sustainable 'Persistent Studio' approach that works better for daily development. [Read the new guide here](/blog/refining-my-git-worktree-worflow).
+
 ---
 
 ## Introduction to Pain
