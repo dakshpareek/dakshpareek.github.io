@@ -14,6 +14,9 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 ## December 2025
 
 ### Articles
+- **[Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/)**
+  *Simon emphasizes that in this fast changing world where people are becoming lazy in writing code and also in testing, that our main job is to delivery that quality code which works as expected and we have manually tested them and not relied on ai to test for us.*
+
 - **[Inverse Triangle Inequality](https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html)**
   *Matklad gave practical advice on structuring code changes: break big PRs into reviewable chunks, separate mechanical refactors from logic changes, and know when to invest extra time to fully solve problems instead of applying quick fixes.*
 
