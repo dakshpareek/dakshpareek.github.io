@@ -11,6 +11,13 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## May 2026
+
+### Articles
+- **[Why Agentic Coding Is a Trap for Serious Engineers](https://medium.com/@sebuzdugan/why-agentic-coding-is-a-trap-for-serious-engineers-c974470e1787)**
+
+  *A thoughtful critique of agentic coding that argues serious engineers should stay careful about outsourcing understanding, judgment, and software quality to autonomous coding tools.*
+
 ## December 2025
 
 ### Articles
