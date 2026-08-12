@@ -11,12 +11,23 @@ In this ongoing post, I'll be sharing articles, blogs, and videos that I've foun
 
 ---
 
+## August 2026
+
+### Articles
+- **[The Antithesis Principle](https://shreyasdoshi.substack.com/p/the-antithesis-principle)**
+
+  *Shreyas Doshi on the antithesis principle.*
+
 ## May 2026
 
 ### Articles
 - **[Why Agentic Coding Is a Trap for Serious Engineers](https://medium.com/@sebuzdugan/why-agentic-coding-is-a-trap-for-serious-engineers-c974470e1787)**
 
   *A thoughtful critique of agentic coding that argues serious engineers should stay careful about outsourcing understanding, judgment, and software quality to autonomous coding tools.*
+
+- **[Expectations of Professional Software Engineers](https://adamj.eu/tech/2022/06/17/mike-actons-expectations-of-professional-software-engineers/)**
+
+  *What separates a professional engineer from someone who just ships code? Understanding the problem you're actually solving, planning honestly (including what could go wrong), knowing your technical constraints, watching how users actually work, respecting people's time, and giving back. This article cuts through the noise.*
 
 ## December 2025
 
