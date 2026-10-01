@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="referrer" content="no-referrer">
+<title>Controllable character animation — demo</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f5f4ef;color:#20352f;font:17px/1.6 system-ui}main{max-width:1100px;margin:auto;padding:48px 24px}small{color:#576f64}h1{font-size:clamp(30px,5vw,54px);line-height:1.1;max-width:800px}h2{font-size:24px}section{margin:32px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}article{background:white;border:1px solid #d9ded6;border-radius:16px;padding:20px}video{width:100%;border-radius:10px;background:#eee}pre{white-space:pre-wrap;background:#20352f;color:#f0f4de;border-radius:10px;padding:18px;font:14px/1.6 monospace}table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:12px;border-bottom:1px solid #d9ded6}.note{background:#ebe7db;padding:20px;border-radius:10px}a{color:#245f4c}@media(max-width:700px){.grid{grid-template-columns:1fr}main{padding:24px 16px}}</style>
+</head>
+<body>
+<main><small>LOCAL REVIEW • WORKING DEVELOPER TOOL</small><h1>Same characters. A precise change to the performance.</h1><p>A short scene rendered from structured JSON, using reusable character rigs, explicit prop actions, and timed character narration.</p><section class="grid"><article><h2>Original scene</h2><video controls preload="metadata" poster="base/poster.png" src="base/outreach_ball_base.mp4"></video><p>Bo returns the ball with a standing pass.</p><a href="base/script.json">View original script</a></article><article><h2>Targeted revision</h2><video controls preload="metadata" poster="revision/poster.png" src="revision/outreach_ball_revision.mp4"></video><p>One new line. The return pass becomes a jumping pass.</p><a href="revision/script.json">View revised script</a></article></section><section><h2>Two edits in the script</h2><pre>Before:
+{ "type": "say", "actor": "bo", "text": "I caught it! Now it is your turn, Kip." }
+{ "type": "pass", "actor": "bo", "prop": "ball", "to": "kip", "style": "stand" }
+
+After:
+{ "type": "say", "actor": "bo", "text": "I caught it! Watch my jumping pass, Kip!" }
+{ "type": "pass", "actor": "bo", "prop": "ball", "to": "kip", "style": "jump" }</pre><p>The cast, set, and remaining script are unchanged. Speech duration determines the compiled timing. The complete film is rendered again.</p></section><section><h2>Measured on this demo</h2><table><thead><tr><th>Scene</th><th>Video length</th><th>Warm render wall time</th><th>Audible lines</th></tr></thead><tbody><tr><td>base</td><td>19.20 s</td><td>30.59 s</td><td>3/3</td></tr><tr><td>revision</td><td>18.87 s</td><td>58.00 s</td><td>3/3</td></tr></tbody></table><p>1920 × 1080 at 30 fps · Apple M3 · 16 GB RAM. Both final runs reused all three speech clips. Initial synthesis created three clips for the original and one new clip for the revision; two unchanged lines were reused. These figures are observations for these scenes, not a throughput guarantee.</p><p>Audio-window and rig/contact checks passed. Backwards seeking produced identical sampled pixels. Actual API cost and manual authoring/review time were not measured.</p></section><section class="note"><h2>Current scope</h2><p>A fixed cartoon cast and action library, JSON authoring, and a local command-line renderer. A hosted API, customer editor, arbitrary characters, and general-purpose film generation are not demonstrated.</p><p><strong>Potential pilot:</strong> test one recurring short-video format with three scenes and one targeted revision per scene. Agree on visual fit, rights, and acceptance criteria before implementation.</p><p>Local dry-run only. Voice and asset sharing rights require review before external distribution. No background music is included.</p></section></main>
+</body>
+</html>

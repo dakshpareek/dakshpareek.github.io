@@ -1,0 +1,82 @@
+{
+  "format": "story-script/2.5d-v1",
+  "id": "outreach_ball_revision",
+  "title": "A little game of catch",
+  "aspect": "landscape",
+  "music": "none",
+  "titling": "none",
+  "scenes": [
+    {
+      "id": "meadow",
+      "set": "meadow",
+      "cast": [
+        {
+          "id": "kip",
+          "asset": "kip",
+          "at": 0.3
+        },
+        {
+          "id": "bo",
+          "asset": "bo",
+          "at": 0.7
+        }
+      ],
+      "props": [
+        {
+          "id": "ball",
+          "asset": "striped_ball",
+          "at": 0.3,
+          "heldBy": "kip"
+        }
+      ],
+      "beats": [
+        {
+          "ms": 800,
+          "type": "wait"
+        },
+        {
+          "actor": "kip",
+          "text": "Ready, Bo? Here comes our little ball!",
+          "type": "say"
+        },
+        {
+          "actor": "kip",
+          "prop": "ball",
+          "to": "bo",
+          "style": "stand",
+          "type": "pass"
+        },
+        {
+          "actor": "bo",
+          "text": "I caught it! Watch my jumping pass, Kip!",
+          "type": "say"
+        },
+        {
+          "actor": "bo",
+          "prop": "ball",
+          "to": "kip",
+          "style": "jump",
+          "type": "pass"
+        },
+        {
+          "actor": "kip",
+          "text": "We did it together. One ball, two happy friends!",
+          "type": "say"
+        },
+        {
+          "actor": "kip",
+          "type": "wave"
+        },
+        {
+          "actor": "bo",
+          "withPrevious": true,
+          "type": "wave"
+        },
+        {
+          "ms": 1000,
+          "type": "wait"
+        }
+      ]
+    }
+  ]
+}
